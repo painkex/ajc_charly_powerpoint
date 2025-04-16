@@ -68,8 +68,6 @@ if uploaded_file is not None and uploaded_template is not None:
             text_first = prs.slides[0]  # Diapositive 1
             text_second = prs.slides[1] # Diapositive 2
             text_six = prs.slides[5]    # Diapositive 6
-            last_slide = prs.slides[9]
-
 
             # Diapositive 4
             for shape in slide_text.shapes:
